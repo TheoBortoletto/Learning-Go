@@ -33,4 +33,8 @@ func main() {
 		j int    = 1
 		k string = "hello"
 	)
+
+	fmt.Println(i)
+	fmt.Println(j)
+	fmt.Println(k)
 }
