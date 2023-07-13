@@ -8,6 +8,12 @@ const PI = 3.14 // <- CONSTANTE
 const A int = 1 // <- CONSTANTE COM TIPO
 const B = 3     // <- CONSTANTE SEM TIPO
 
+const (
+	C int = 1     //
+	D     = 3.14  // CONSTANTES MÚLTIPLAS
+	E     = "Hi!" //
+)
+
 func main() {
 	fmt.Println("\n\t Constantes: \n")
 
@@ -28,4 +34,11 @@ func main() {
 
 	fmt.Println("Constante com tipo: ", A, "\n")
 	fmt.Println("Constante sem tipo: ", B, "\n")
+
+	fmt.Println("\n\t Declaração de múltiplas constantes: \n")
+
+	fmt.Println(C)
+	fmt.Println(D)
+	fmt.Println(E)
+
 }
