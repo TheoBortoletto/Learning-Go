@@ -68,5 +68,34 @@ func main() {
 
 	fmt.Println("\n\tAtribuição de valor após a declaração: \n")
 
-	/**/
+	/*É possível atribuir um valor a uma variável depois de
+	declarada. Isso é útil para casos em que o valor não é
+	inicialmente conhecido.*/
+
+	var estudante1 string
+	estudante1 = "Théo"
+	fmt.Println(estudante1)
+
+	fmt.Println("\n\tDiferença entre 'var' e ':=' : \n")
+
+	/*VAR - Pode ser usado dentro e fora de funções
+	  	  - Declaração de cariável e de valor PODE ser feitas separadamente
+
+	  :=  - Só pode ser usado em funções
+	  	  - Declaração de variável e valor NÃO podem ser feitas separadamente*/
+
+	fmt.Println("Exemplo de declaração de variáveis fora de uma função com a palavra-chave 'var': \n")
+
+	main2() // CHAMARÁ A FUNÇÃO ABAIXO V
+}
+
+var x int
+var y int = 2
+var z = 3
+
+func main2() {
+	x = 1
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(z)
 }
