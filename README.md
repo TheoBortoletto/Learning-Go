@@ -1,5 +1,5 @@
 # Learning-Go
-Learning 'Go' from W3Schools
+Learning 'Go' at W3Schools
 
 # Files you must add to learn and practice 'Go' on VS Code:
 
