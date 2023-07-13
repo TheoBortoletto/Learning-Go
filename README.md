@@ -1,7 +1,7 @@
 # Learning-Go
 Learning 'Go' at W3Schools
 
-# Files you must add to learn and practice 'Go' on VS Code:
+# Files you must add on VS Code to learn and practice 'Go':
 
 - go.mod
 - go.work
