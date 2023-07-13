@@ -12,3 +12,7 @@ package main // Declaração de pacotes
 import (
 	"fmt"
 ) // Importar pacotes
+
+func main() { // Função
+	fmt.Println("Primeiro print")
+}
