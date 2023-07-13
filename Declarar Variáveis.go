@@ -50,4 +50,23 @@ func main() {
 	fmt.Println(student1)
 	fmt.Println(student2)
 	fmt.Println(x)
+
+	// Observação: os tipos de variáveis ​​de student2e xsão inferidos de seus valores.
+
+	fmt.Println("\n\tDeclaração de variável sem valor inicial: \n")
+
+	var a string
+	var b int
+	var c bool
+
+	fmt.Println(a)
+	fmt.Println(b)
+	fmt.Println(c)
+
+	/* As variáveis acima não recebem valor inicial,
+	portanto a = " "; b = 0; c = false.*/
+
+	fmt.Println("\n\tAtribuição de valor após a declaração: \n")
+
+	/**/
 }
