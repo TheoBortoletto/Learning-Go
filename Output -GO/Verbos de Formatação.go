@@ -17,18 +17,18 @@ func main() {
 	%%	->	Imprime o sinal %*/
 
 	var i = 20.7
-	var txt = "Olááá a todos!!!"
+	var txt_ = "Olááá a todos!!!"
 
 	fmt.Printf("%v\n", i)
 	fmt.Printf("%#v\n", i)
 	fmt.Printf("%v%%\n", i)
 	fmt.Printf("%T\n", i)
 
-	fmt.Printf("%v\n", txt)
-	fmt.Printf("%#v\n", txt)
-	fmt.Printf("%T\n\n", txt)
+	fmt.Printf("%v\n", txt_)
+	fmt.Printf("%#v\n", txt_)
+	fmt.Printf("%T\n\n", txt_)
 
-	fmt.Println("\tVerbos de formatção inteira: \n")
+	fmt.Println("\tVerbos de formatção inteira (int): \n")
 
 	/*Os seguintes verbos podem ser usados ​​com o tipo de dados inteiro:
 
@@ -55,6 +55,42 @@ func main() {
 	fmt.Printf("%X\n", num)
 	fmt.Printf("%4d\n", num)
 	fmt.Printf("%-4d\n", num)
-	fmt.Printf("%04d\n", num)
+	fmt.Printf("%04d\n\n", num)
+
+	fmt.Println("\tVerbos de formatação de string (string): \n")
+
+	/*Os seguintes verbos podem ser usados ​​com o tipo de dados string:
+
+	Verb:	Description:
+	%s	 ->	 Imprime o valor como string simples
+	%q	 ->	 Prints the value as a double-quoted string
+	%8s	 ->	 Imprime o valor como string simples (largura 8, direita justified)
+	%-8s ->	 Imprime o valor como string simples (largura 8, esquerda justified)
+	%x	 ->	 Imprime o valor hexa decimal sem espaço
+	% x	 ->	 Imprime o valor hexa decimal com espaços*/
+
+	var txt = "Hello"
+
+	fmt.Printf("%s\n", txt)
+	fmt.Printf("%q\n", txt)
+	fmt.Printf("%8s\n", txt)
+	fmt.Printf("%-8s\n", txt)
+	fmt.Printf("%x\n", txt)
+	fmt.Printf("% x\n\n", txt)
+
+	fmt.Println("\tVerbos de formatação booleana (bool): \n")
+
+	/*O verbo a seguir pode ser usado com o tipo de dados booleano:
+
+	Verb:	Description:
+	%t	->	IMprime o valor se é veerdadeiro ou falso (o mesmo se usar %v)*/
+
+	var a = true
+	var b = false
+
+	fmt.Printf("%t\n", a)
+	fmt.Printf("%t\n\n", b)
+
+	fmt.Println("\tVerbos de formatação flutuante (float): \n")
 
 }
