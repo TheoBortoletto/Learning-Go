@@ -46,8 +46,8 @@ func main() {
 
 		Aqui vamos usar dois verbos de formatação:
 
-	%v é usado para imprimir o valor dos argumentos
-	%T é usado para imprimir o tipo dos argumentos*/
+	 - %v é usado para imprimir o valor dos argumentos
+	 - %T é usado para imprimir o tipo dos argumentos*/
 
 	var a string = "Olááá"
 	var b int = 20
