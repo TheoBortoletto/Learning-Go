@@ -19,5 +19,4 @@ func main() {
 	fmt.Printf("Tipo: %T, valor: %v \n", txt1, txt1)
 	fmt.Printf("Tipo: %T, valor: %v \n", txt2, txt2)
 	fmt.Printf("Tipo: %T, valor: %v \n\n", txt3, txt3)
-
 }
