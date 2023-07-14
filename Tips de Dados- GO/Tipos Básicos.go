@@ -21,5 +21,7 @@ func main() {
 
 	fmt.Println("Booleano: ", a)
 	fmt.Println("Inteiro: ", b)
+	fmt.Println("Float: ", c)
+	fmt.Print("String: ", d, "\n")
 
 }
