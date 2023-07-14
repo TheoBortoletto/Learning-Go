@@ -29,8 +29,8 @@ func main() {
 	/*Inteiros sem sinal, declarados com uma das
 	uint palavras-chave, só podem armazenar valores não negativos:*/
 
-	var x unit = 500
-	var y unit = 400
+	var x uint = 500
+	var y uint = 400
 
 	fmt.Printf("Tipo: %T, valor: %v \n", x, x)
 	fmt.Printf("Tipo: %T, valor: %v \n\n", y, y)
