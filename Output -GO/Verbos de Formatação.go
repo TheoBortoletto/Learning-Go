@@ -44,4 +44,17 @@ func main() {
 	%-4d ->	 Pad with spaces (width 4, left justified)
 	%04d ->	 Pad with zeroes (width 4)*/
 
+	var num = 15
+
+	fmt.Printf("%b\n", num)
+	fmt.Printf("%d\n", num)
+	fmt.Printf("%+d\n", num)
+	fmt.Print("%o\n", num)
+	fmt.Printf("%O\n", num)
+	fmt.Printf("%x\n", num)
+	fmt.Printf("%X\n", num)
+	fmt.Printf("%4d\n", num)
+	fmt.Printf("%-4d\n", num)
+	fmt.Printf("%04d\n", num)
+
 }
