@@ -49,7 +49,7 @@ func main() {
 	fmt.Printf("%b\n", num)
 	fmt.Printf("%d\n", num)
 	fmt.Printf("%+d\n", num)
-	fmt.Print("%o\n", num)
+	fmt.Printf("%o\n", num)
 	fmt.Printf("%O\n", num)
 	fmt.Printf("%x\n", num)
 	fmt.Printf("%X\n", num)
