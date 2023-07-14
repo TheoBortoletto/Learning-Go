@@ -93,4 +93,20 @@ func main() {
 
 	fmt.Println("\tVerbos de formatação flutuante (float): \n")
 
+	/*Os seguintes verbos podem ser usados ​​com o tipo de dados float:
+
+	Verb:			Description:
+	%e	  ->	 notação científica com 'e' de expoente
+	%f	  ->	 Ponto decimal, sem expoente
+	%.2f  ->	 largura padrão, duas casas depois da vírgula
+	%6.2f -> 	 largura 6, duas casas depois da vírgula
+	%g	  ->	 Exponent conforme necessário, apenas os dígitos necessários*/
+
+	var pi = 3.141
+
+	fmt.Printf("%e\n", pi)
+	fmt.Printf("%f\n", pi)
+	fmt.Printf("%.2f\n", pi)
+	fmt.Printf("%6.2f\n", pi)
+	fmt.Printf("%g\n\n", pi)
 }
