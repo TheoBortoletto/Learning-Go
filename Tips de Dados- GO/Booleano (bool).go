@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	fmt.Println("\nTipos de dados booleanos: \n")
+	fmt.Println("\n\tTipos de dados booleanos: \n")
 
 	var b1 bool = true // declaração digitada com valor inicial
 	var b2 = true      // declarção sem tipo com valor inicial
