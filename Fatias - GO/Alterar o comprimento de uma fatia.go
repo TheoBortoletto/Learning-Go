@@ -29,6 +29,6 @@ func main() {
 
 	fmt.Printf("fatia1 = %v\n", fatia1)
 	fmt.Printf("Comprimento = %d\n", len(fatia1))
-	fmt.Printf("Capacidade = %d\n", cap(fatia1))s
+	fmt.Printf("Capacidade = %d\n", cap(fatia1))
 
 }
