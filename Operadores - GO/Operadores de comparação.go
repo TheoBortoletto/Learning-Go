@@ -22,7 +22,7 @@ func main() {
 
 Uma lista de todos os operadores de comparação:
 
-Operator	Name				        Example
+Operator	Name				  Example
 
 ==		|	Equal to			|	x == y
 !=		|	Não é igual a		|	x != y
@@ -30,5 +30,7 @@ Operator	Name				        Example
 <		|	Menor que			|	x < y
 >=		|	Maior ou igual a	|   x >= y
 <=		|	Menor ou igual a	|	x <= y
+
+Veja os exemplos em: https://www.w3schools.com/go/go_comparison_operators.php
 
 */
