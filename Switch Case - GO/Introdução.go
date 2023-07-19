@@ -49,4 +49,53 @@ func main() {
 
 	*/
 
+	dia := 3
+
+	switch dia {
+	case 1:
+		fmt.Println("Segunda-feira")
+	case 2:
+		fmt.Println("Terça-feira")
+	case 3:
+		fmt.Println("Quarta-feira")
+	case 4:
+		fmt.Println("Quinta-feira")
+	case 5:
+		fmt.Println("Sexta-feira")
+	case 6:
+		fmt.Println("Sábado")
+	case 7:
+		fmt.Println("Domingo")
+	}
+
+	fmt.Println("\n\tA palavra-chave 'default': \n")
+
+	/*A palavra-chave default especifica algum código
+	a ser executado se não houver correspondência de
+	maiúsculas e minúsculas:
+
+	*/
+
+	day := 8
+
+	switch day {
+	case 1:
+		fmt.Println("Segunda-feira")
+	case 2:
+		fmt.Println("Terça-feira")
+	case 3:
+		fmt.Println("Quarta-feira")
+	case 4:
+		fmt.Println("Quinta-feira")
+	case 5:
+		fmt.Println("Sexta-feira")
+	case 6:
+		fmt.Println("Sábado")
+	case 7:
+		fmt.Println("Domingo")
+	default:
+		fmt.Println("Não é um dia da semana")
+
+	}
+
 }
