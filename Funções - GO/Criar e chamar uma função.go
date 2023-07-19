@@ -21,4 +21,6 @@ func main() {
 	// CHAMAR FUNÇÃO:
 
 	msg()
+	msg()
+	msg()
 }
