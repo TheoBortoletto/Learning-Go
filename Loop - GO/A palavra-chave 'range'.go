@@ -38,9 +38,19 @@ func main() {
 	/*Dica: Para mostrar apenas o valor ou o índice,
 	você pode omitir a outra saída usando um sublinhado ( _ ).*/
 
-	fruits := [3]string{"apple", "orange", "banana"}
-	for _, val := range fruits {
-		fmt.Printf("%v\n", val)
+	fruits1 := [3]string{"apple", "orange", "banana"}
+	for _, val := range fruits1 {
+		fmt.Printf("%v\n\n", val)
+	}
+
+	fmt.Println("Exemplo 3: \n")
+
+	/*Aqui, queremos omitir os valores ('idx' armazena o índice, 'val' armazena o valor):*/
+
+	fruits2 := [3]string{"apple", "orange", "banana"}
+
+	for idx, _ := range fruits2 {
+		fmt.Printf("%v\n", idx)
 	}
 
 }
