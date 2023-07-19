@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+func msg() {
+	fmt.Println("Função executada!!!")
+}
+
 func main() {
 
 	fmt.Println("\n\t\tCriar e chamar uma função: \n")
@@ -13,4 +17,8 @@ func main() {
 	func nomeDaFunção() {
 		código a ser executado
 	}*/
+
+	// CHAMAR FUNÇÃO:
+
+	msg()
 }
