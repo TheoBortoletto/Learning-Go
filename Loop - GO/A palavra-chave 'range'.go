@@ -21,4 +21,26 @@ func main() {
 	}
 
 	*/
+
+	fmt.Println("Exemplo 1: \n")
+
+	/*Este exemplo usa 'range' para iterar sobre uma matriz e
+	imprimir os índices e os valores em cada um
+	( 'idx' armazena o índice, 'val' armazena o valor):*/
+
+	frutas := [3]string{"Maçã", "Laranja", "Banana"}
+	for idx, val := range frutas {
+		fmt.Printf("%v\t%v\n\n", idx, val)
+	}
+
+	fmt.Println("Exemplo 2: \n")
+
+	/*Dica: Para mostrar apenas o valor ou o índice,
+	você pode omitir a outra saída usando um sublinhado ( _ ).*/
+
+	fruits := [3]string{"apple", "orange", "banana"}
+	for _, val := range fruits {
+		fmt.Printf("%v\n", val)
+	}
+
 }
