@@ -97,5 +97,5 @@ func main() {
 		fmt.Println("Não é um dia da semana")
 
 	}
-
+	// Todos os valores de case devem ser do mesmo tipo -> int com int e string ocm
 }
