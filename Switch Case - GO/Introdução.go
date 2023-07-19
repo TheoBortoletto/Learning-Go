@@ -6,5 +6,6 @@ import (
 
 func main() {
 
-	fmt.Println("")
+	fmt.Println("\n\t\tSwitch Case: \n")
+	fmt.Println("\n\tSingle Case:")
 }
