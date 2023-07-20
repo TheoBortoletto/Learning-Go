@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 /*Go aceita funções de recursão. Uma função é
 recursiva se chama a si mesma e atinge uma condição

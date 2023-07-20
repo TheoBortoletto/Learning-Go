@@ -7,3 +7,5 @@ Learning 'Go' at W3Schools
 - go.work
 
 With this two flies, there's not gonna have errors.
+
+Official Documentation: https://go.dev/tour/welcome/1
