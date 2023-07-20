@@ -17,7 +17,7 @@ func main() {
 	use o operador ponto (.) entre o nome da variável
 	da estrutura e o membro da estrutura:*/
 
-	var pessoa1 Pessoa
+	var pessoa1 Pessoa // OU -> var pessoa1, pessoa2 Pessoa
 	var pessoa2 Pessoa
 
 	// PESSOA 1:
