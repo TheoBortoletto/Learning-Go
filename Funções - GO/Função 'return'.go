@@ -15,7 +15,7 @@ func main() {
 	/*Se você deseja que a função retorne um valor,
 	você precisa definir o tipo de dados do valor de
 	retorno (como int, string, etc) e também usar a
-	returnpalavra-chave dentro da função:
+	palavra-chave 'return' dentro da função:
 
 	SINTAXE
 
@@ -24,6 +24,6 @@ func main() {
 		return output
 	}*/
 
-	fmt.Println(myFunciton(1, 2))
+	fmt.Println(myFunciton(1, 2)) // Output será 3. x recebe 1 e y recebe 2
 
 }
