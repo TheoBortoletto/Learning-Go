@@ -16,4 +16,21 @@ func main() {
 
 	Uma struct pode ser útil para agrupar dados para criar registros.*/
 
+	/*SINTAXE:
+
+		type struct_name struct {
+	  		member1 datatype;
+	 	 	member2 datatype;
+	  		member3 datatype;
+	  ...
+	}
+	*/
+
+	type Pessoa struct {
+		nome    string
+		idade   int
+		job     string
+		salario int
+	}
+
 }
