@@ -16,4 +16,13 @@ func main() {
 	a["Marca"] = "Ford"
 	a["Modelo"] = "Mustang"
 	a["Ano"] = "1964" // -> MAPA NÃO ESTÁ MAIS VAZIO
+
+	b := make(map[string]int)
+	b["Prova1"] = 4
+	b["Prova2"] = 8
+	b["Prova3"] = 7
+	b["Prova4"] = 2
+
+	fmt.Printf("a\t%v\n", a)
+	fmt.Printf("a\t%v\n", b)
 }
