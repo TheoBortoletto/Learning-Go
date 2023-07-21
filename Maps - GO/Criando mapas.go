@@ -21,13 +21,15 @@ func main() {
 	Go tem várias maneiras de criar mapas.*/
 
 	/*SINTAXE:
-	
+
 	var a = map[TipoChave]TipoValor{chave1:valor1, chave2:valor2,...}
 
 	b := map[TipoChave]TipoValor{chave1:valor1, chave2:valor2...}
 	*/
 
-	var a = map[string]string{"Marca:" "Ford", "Modelo:" "Mustang"}
+	var a = map[string]string{"Marca": "Ford", "Modelo:": "Mustang", "Ano": "1964"}
+	b := map[string]int{"Prova1": 4, "Prova2:": 6, "Prova3": 8, "Prova4": 9}
 
-	
+	fmt.Printf("a\t%v\n", a)
+	fmt.Printf("b\t%v\n", b)
 }
