@@ -12,4 +12,8 @@ func main() {
 	b := make(map[TipoChave]TipoValor)
 	*/
 
+	var a = make(map[string]string) // -> MAPA VAZIO
+	a["Marca"] = "Ford"
+	a["Modelo"] = "Mustang"
+	a["Ano"] = "1964" // -> MAPA NÃO ESTÁ MAIS VAZIO
 }
