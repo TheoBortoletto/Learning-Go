@@ -27,4 +27,16 @@ func main() {
 	fmt.Println(val3, ok3)
 	fmt.Println(ok4)
 
+	/*Exemplo explicado:
+
+	Neste exemplo, verificamos a existência de
+	diferentes chaves no mapa.
+
+	A chave " cor " não existe no mapa. Portanto,
+	o valor é uma string vazia ('').
+
+	A variável ok2 é usada para descobrir se a
+	chave existe ou não. Porque teríamos o mesmo
+	valor se o valor da chave "cor" estivesse
+	vazio. Este é o caso de val3 .*/
 }
