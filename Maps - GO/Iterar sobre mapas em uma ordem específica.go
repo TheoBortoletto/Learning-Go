@@ -25,5 +25,5 @@ func main() {
 		fmt.Printf("%v : %v, ", element, a[element])
 	}
 
-	fmt.Println(
+	fmt.Println()
 }
